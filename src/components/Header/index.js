@@ -7,10 +7,10 @@ import Navigation from "../Navigation";
 function Header() {
 
     const [categories] = useState([
-    { name: 'About Me', path: "react-portfolio/" },
-    { name: 'Portfolio', path: "react-portfolio/portfolio" },
-    { name: 'ContactMe', path: "react-portfolio/contact" },
-    { name: 'Resume', path: "react-portfolio/resume" },
+    { name: 'About Me', path: "/react-portfolio/" },
+    { name: 'Portfolio', path: "/react-portfolio/portfolio" },
+    { name: 'ContactMe', path: "/react-portfolio/contact" },
+    { name: 'Resume', path: "/resume" },
   ]);
 
     return (

@@ -31,9 +31,9 @@ function App() {
          
           <div >
           <Switch>
-            <Route exact path="react-portfolio/" component={AboutMe} />
-            <Route exact path="react-portfolio/portfolio" component={Portfolio} />
-            <Route exact path="react-portfolio/contact" component={ContactMe} />
+            <Route exact path="/react-portfolio/" component={AboutMe} />
+            <Route exact path="/react-portfolio/portfolio" component={Portfolio} />
+            <Route exact path="/react-portfolio/contact" component={ContactMe} />
             {/* <Route exact path="/resume" component={Resume} /> */}
           </Switch>
           </div>
