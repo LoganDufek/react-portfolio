@@ -1,13 +1,22 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 
-function Navigation() {
+function Navigation(props) {
+
+    const {
+    categories = [],
+  } = props;
 
     return (
         <nav className = "navOptions">
-           <li> About Me </li>
-            <li> Portfolio</li>
-            <li> Contact </li>
-            <li> Resume </li>
+           {categories.map((category) =>(  
+                       <li
+                            key={category.name}> 
+                            <Link to={`${category.path}`} >
+                                {category.name}
+                            </Link>
+                        </li> ))}
+           
         </nav>
     )
 }
