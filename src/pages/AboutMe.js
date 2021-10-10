@@ -19,15 +19,11 @@ const AboutMe = () => {
 
                 <div className="pics">
                     <img src={profilePic}
-                        style={
-                            {width: 350}
-                        }
+                       
                         className="profile"></img>
 
                     <img src={profilePic2}
-                        style={
-                            {width: 350}
-                        }
+                       
                         className="profile"></img>
 
                 </div>

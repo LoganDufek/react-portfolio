@@ -14,7 +14,7 @@ function Header() {
   ]);
 
     return (
-        <header style={{ backgroundImage: `url(${hero})` }}>
+        <header style={{ backgroundImage: `url(${hero})` }} className="header">
             
             <div className="banner" >
             <h1 >Logan Dufek  </h1>

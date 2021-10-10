@@ -42,12 +42,7 @@ function App() {
          
     
         
-     <body className="body">
 
-        
-
-
-     </body>
 
      <Footer></Footer>
      </main>
