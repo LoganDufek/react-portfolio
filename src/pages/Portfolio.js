@@ -4,6 +4,8 @@ import Project from '../components/Project';
 
 const Portfolio = () => {
 
+    // Setting up array of projects to be used in the Project Component
+
     const [projects] = useState([
     {
         title: 'Movie Matcher' , name: 'moviematcherproject', description: 'Front-End Project', github: 'https://github.com/LincolnW90/Movie-Matcher', link: 'https://lincolnw90.github.io/Movie-Matcher/'

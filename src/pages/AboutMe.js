@@ -19,11 +19,11 @@ const AboutMe = () => {
 
                 <div className="pics">
                     <img src={profilePic}
-                       
+
                         className="profile"></img>
 
                     <img src={profilePic2}
-                       
+
                         className="profile"></img>
 
                 </div>

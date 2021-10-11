@@ -4,8 +4,6 @@ import resume from '../assets/pdf/Logan_Alexander_Dufek_Resume_(2021).pdf'
 
 function Resume() {
 
-
-
     return (
         <div className="resume-page">
 
@@ -15,7 +13,6 @@ function Resume() {
                     <h4>
                         Proficiencies
                     </h4>
-
 
 
                 </div>

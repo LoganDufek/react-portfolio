@@ -1,5 +1,4 @@
-import  React from "react";
-
+import React from "react";
 import './App.css';
 import Header from './components/Header'
 import Footer from './components/Footer'
@@ -12,42 +11,30 @@ import Resume from "./pages/Resume"
 function App() {
 
 
-
-
   return (
     <div className="App">
       <Router>
-      <main>
-
-        
-
-      <Header >
-        
-       
-          
-         
-      </Header>
-         <div >
-         
+        <main>
+          {/* Imported Header Component */}
+          <Header ></Header>
           <div >
-          <Switch>
-            <Route exact path="/react-portfolio/" component={AboutMe} />
-            <Route exact path="/react-portfolio/portfolio" component={Portfolio} />
-            <Route exact path="/react-portfolio/contact" component={ContactMe} />
-            <Route exact path="/react-portfolio/resume" component={Resume} />
-          </Switch>
-          </div>
-           
-          </div>
-         
-    
-        
 
+            <div >
+              {/* Setting up Switch Router to be able to switch between different pages */}
+              <Switch>
+                <Route exact path="/react-portfolio/" component={AboutMe} />
+                <Route exact path="/react-portfolio/portfolio" component={Portfolio} />
+                <Route exact path="/react-portfolio/contact" component={ContactMe} />
+                <Route exact path="/react-portfolio/resume" component={Resume} />
+              </Switch>
+            </div>
 
-     <Footer></Footer>
-     </main>
+          </div>
+          {/* Imported Footer Component */}
+          <Footer></Footer>
+        </main>
       </Router>
-      
+
     </div>
 
   );

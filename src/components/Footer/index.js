@@ -8,36 +8,36 @@ function Footer() {
 
 
     return (
-        <footer className = "foot">
+        <footer className="foot">
 
-             <div>
-                 <a href= "https://github.com/LoganDufek"
-                        
-                        className="github" >
-                             <img alt="githublogo" src={github} style={
-                            {width: 80}
-                        }></img>
+            <div>
+                <a href="https://github.com/LoganDufek"
+
+                    className="github" >
+                    <img alt="githublogo" src={github} style={
+                        { width: 80 }
+                    }></img>
                 </a>
 
-                 <a href= "https://www.linkedin.com/in/logan-dufek-7b919383/"
-                        
-                        className="linkedIn" >
-                             <img alt="linkedInlogo" src={linkedIn} style={
-                            {width: 80}
-                        }></img>
+                <a href="https://www.linkedin.com/in/logan-dufek-7b919383/"
+
+                    className="linkedIn" >
+                    <img alt="linkedInlogo" src={linkedIn} style={
+                        { width: 80 }
+                    }></img>
                 </a>
 
-                  <a href= "https://www.facebook.com/logan.dufek"
-                        
-                        className="facebook" >
-                             <img alt="linkedInlogo" src={facebook} style={
-                            {width: 80}
-                        }></img>
+                <a href="https://www.facebook.com/logan.dufek"
+
+                    className="facebook" >
+                    <img alt="linkedInlogo" src={facebook} style={
+                        { width: 80 }
+                    }></img>
                 </a>
 
-             </div>
+            </div>
+
             
-            {/* <div>&copy;2021 by Logan Dufek</div> */}
         </footer>
     )
 }

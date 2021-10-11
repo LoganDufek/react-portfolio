@@ -3,63 +3,55 @@ import github from "../../assets/images/github-logo.png";
 import linklogo from "../../assets/images/link-logo.png"
 
 
-
 const Project = (props) => {
-
-
     const {
         projects = [],
         setcurrentProject,
         currentProject
     } = props;
 
-
     return (
-        <div className = "projects">
-           
+        <div className="projects">
+
 
             {projects.map((project) => (
 
                 <div >
                     <div className="container">
-        
-                    <img
-                        src={require(`../../assets/images/${project.name}.jpg`).default}
-                        alt={project.name}
-                        className="proj-thumbnail"
-                       
 
-                        key={project.name}
-                    />
-                     <h4 className="proj-title">{project.title}
-                     </h4>
-                     
-                     
-                      <p>
-                        {project.description}
-                        
-                    </p>
+                        <img
+                            src={require(`../../assets/images/${project.name}.jpg`).default}
+                            alt={project.name}
+                            className="proj-thumbnail"
 
-                    
 
-                </div>
-                <div className="links" >
+                            key={project.name}
+                        />
+                        <h4 className="proj-title">{project.title}
+                        </h4>
 
-                 <a href= {project.github}
-                        
-                        className="githubProj" >
-                             <img alt="githublogo"  onmouseover="click();" src={github} style={
-                            {width: 60}
-                        }></img>
-                    </a>
+                        <p>
+                            {project.description}
+                        </p>
 
-                     <a href= {project.link}
-                        
-                        className="linkProj" >
-                             <img alt="linklogo"  src={linklogo} style={
-                            {width: 60}
-                        }></img>
-                    </a>
+                    </div>
+                    <div className="links" >
+
+                        <a href={project.github}
+
+                            className="githubProj" >
+                            <img alt="githublogo" onmouseover="click();" src={github} style={
+                                { width: 60 }
+                            }></img>
+                        </a>
+
+                        <a href={project.link}
+
+                            className="linkProj" >
+                            <img alt="linklogo" src={linklogo} style={
+                                { width: 60 }
+                            }></img>
+                        </a>
                     </div>
                 </div>
             ))}
