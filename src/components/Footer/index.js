@@ -15,7 +15,7 @@ function Footer() {
                         
                         className="github" >
                              <img alt="githublogo" src={github} style={
-                            {width: 70}
+                            {width: 80}
                         }></img>
                 </a>
 
@@ -23,7 +23,7 @@ function Footer() {
                         
                         className="linkedIn" >
                              <img alt="linkedInlogo" src={linkedIn} style={
-                            {width: 70}
+                            {width: 80}
                         }></img>
                 </a>
 
@@ -31,7 +31,7 @@ function Footer() {
                         
                         className="facebook" >
                              <img alt="linkedInlogo" src={facebook} style={
-                            {width: 70}
+                            {width: 80}
                         }></img>
                 </a>
 

@@ -52,8 +52,6 @@ a {
   }
 }
 
-
-
 .banner {
   padding: 60px 0;
   display: flex;
@@ -122,6 +120,24 @@ a {
    margin-bottom: 20px;
 }
 
+.portfolio {
+  padding-top: 20px;
+   display:flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   
+}
+
+.portfolio h3 {
+   font-size: 80px;
+   display: inline-flex;
+   align-items: center;
+   color: #2F3061;
+   border-bottom: 2px solid #2F3061;
+   margin-bottom: 20px;
+}
+
 
 .profile  {
    display: flex;
@@ -151,11 +167,20 @@ a {
   padding-top: 20px;
 }
 
-.contact-page h1 {
-  display: flex;
+.contact-title {
+ display:flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+}
+
+.contact-title h1 {
+  
+  display: inline-flex;
   justify-content: center;
-  font-size: 50px;
+  font-size: 80px;
   color: #2F3061;
+  border-bottom: 2px solid #2F3061;
    
 }
 
@@ -189,11 +214,133 @@ width: 100%;
 margin-right: 25px;
 }
 
+.submitButton {
+  background-color: #2F3061;
+  color: #ffffff;
+  margin-top: 10px;
+  border-style: none;
+  font-size: 40px;
+  border-radius: 5px;
+  padding: 5px 15px;
+}
+
 .linkedIn {
 
   padding-left: 15px;
   padding-right: 15px;
 }
+
+.linkedIn:hover, .facebook:hover, .github:hover {
+    z-index: 100;
+    opacity: 0.7;
+}
+
+
+
+.proj-thumbnail {
+  position: absolute;
+  
+}
+
+.container h4 {
+  text-align: center;
+  padding-top: 25px;
+  font-size: 50px;
+  color: #ffffff;
+    text-shadow:
+   -1px -1px 0  #000a68b7,  
+    1px -1px 0  #000a68b7,
+    -1px 1px 0  #000a68b7,
+     1px 1px 0  #000a68b7;
+}
+
+.container p {
+ 
+  font-size: 40px;
+  color: #ffffff;
+  margin-bottom: 140px;
+  text-align: center;
+}
+
+.container {
+  position: relative;
+  background-color: #5B82CD;
+  width: 477px;
+  height: 234px;
+  margin-right: 60px;
+  margin-left: 60px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  border: 7px solid #2F3061 ;
+  z-index: 0;
+}
+
+
+.projects{
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 40px;
+  
+  padding-bottom: 50px;
+}
+
+.proj-thumbnail:hover {
+  opacity: 0.06;
+  z-index: 0;
+}
+
+.githubProj {
+  padding-left: 60px;
+  margin-top: 30px;
+}
+
+.linkProj {
+  padding-left: 10px;
+}
+
+.githubProj:hover, .linkProj:hover {
+  opacity: 0.7;
+}
+
+.resume {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  
+}
+
+.resume-page {
+  display: flex;
+   flex-wrap: wrap;
+   flex-direction: column;
+  
+  margin-left: auto;
+  margin-right: auto;
+   text-align: center;
+   width: 35%;
+}
+ 
+.download-button {
+   font-size: 30px;
+   padding-bottom: 20px;
+   color: #2F3061;
+}
+
+.resume-container li {
+ display: inline-flex;
+ padding-left: 20px;
+ font-size: 25px;
+ padding-top: 20px;
+}
+
+.proficiencies h4 {
+  display: inline-flex;
+  padding-top: 30px;
+  font-size: 70px;
+  color: #2F3061;
+  border-bottom: 2px solid #2F3061;
+}
+
+
 
 @media screen and (max-width: 768px) {
 
@@ -263,6 +410,16 @@ width: 100%;
 margin-right: 25px;
 font-size: 30px;
 }
+
+.submitButton {
+
+  margin-top: 10px;
+  border-style: none;
+  font-size: 50px;
+  border-radius: 5px;
+ margin-left: 130px;
+
+}
  
 .App {
       width: min-content;
@@ -271,7 +428,9 @@ font-size: 30px;
 
 .aboutTitle {
       text-align: center;
+      display: block;
     }
+
 
     
 .pics {
@@ -287,7 +446,41 @@ font-size: 30px;
       margin: 10px 30px;
        width: 60%;
     }
+
+.projects {
+  justify-content: center;
+  padding: 20px 0 ;
+}
+
+
+.githubProj {
+
+  margin-top: 0px;
+}
+
+.links {
+  display: flex;
+  padding-right: 40px;
+  justify-content: center;
+}
+
+.resume-container img {
+     
+     width: 90%;
+  }
+
+.resume-page {
+     
+    width: 100%;
   }
 
 
+
+  .download-button {
+    margin-right: 70px;
+  }
+
+  }
+
+ 
 

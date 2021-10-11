@@ -10,7 +10,7 @@ function Header() {
     { name: 'About Me', path: "/react-portfolio/" },
     { name: 'Portfolio', path: "/react-portfolio/portfolio" },
     { name: 'ContactMe', path: "/react-portfolio/contact" },
-    { name: 'Resume', path: "/resume" },
+    { name: 'Resume', path: "/react-portfolio/resume" },
   ]);
 
     return (

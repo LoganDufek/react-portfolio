@@ -47,8 +47,9 @@ function ContactForm() {
 
 
         <section className= "contact-page">
+            <div className= "contact-title">
             <h1>Contact</h1>
-
+        </div>
             <div className = "contact-boxes">
             <form id="contact-form"
                 onSubmit={handleSubmit}>
@@ -73,7 +74,7 @@ function ContactForm() {
                         onBlur
                         ={handleChange}/>
                 </div>
-                <button type="submit">Submit</button>
+                <button className= "submitButton" type="submit">Submit</button>
                 {
                 errorMessage && (
                     <div>
