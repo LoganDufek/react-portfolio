@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.8a7140c3.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.d63b106b.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.d63b106b.chunk.js.map",
+    "runtime-main.js": "/react-portfolio/static/js/runtime-main.4aee2d86.js",
+    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.4aee2d86.js.map",
+    "static/js/2.e183dfc8.chunk.js": "/react-portfolio/static/js/2.e183dfc8.chunk.js",
+    "static/js/2.e183dfc8.chunk.js.map": "/react-portfolio/static/js/2.e183dfc8.chunk.js.map",
+    "static/js/3.e031db09.chunk.js": "/react-portfolio/static/js/3.e031db09.chunk.js",
+    "static/js/3.e031db09.chunk.js.map": "/react-portfolio/static/js/3.e031db09.chunk.js.map",
+    "index.html": "/react-portfolio/index.html",
+    "static/css/main.8a7140c3.chunk.css.map": "/react-portfolio/static/css/main.8a7140c3.chunk.css.map",
+    "static/js/2.e183dfc8.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.e183dfc8.chunk.js.LICENSE.txt",
+    "static/media/Logan_Alexander_Dufek_Resume_(2021).338490c9.pdf": "/react-portfolio/static/media/Logan_Alexander_Dufek_Resume_(2021).338490c9.pdf",
+    "static/media/PortfolioHero.jpg": "/react-portfolio/static/media/PortfolioHero.1ed5fcf0.jpg",
+    "static/media/RecentPhoto.jpg": "/react-portfolio/static/media/RecentPhoto.2688b4f8.jpg",
+    "static/media/RecentPhoto2.jpg": "/react-portfolio/static/media/RecentPhoto2.1a4d79de.jpg",
+    "static/media/facebook-logo.949fed89.png": "/react-portfolio/static/media/facebook-logo.949fed89.png",
+    "static/media/getclicknproject.jpg": "/react-portfolio/static/media/getclicknproject.e50f4303.jpg",
+    "static/media/github-logo.b7076c7c.png": "/react-portfolio/static/media/github-logo.b7076c7c.png",
+    "static/media/landingPage.jpg": "/react-portfolio/static/media/landingPage.985a0f70.jpg",
+    "static/media/link-logo.db3f3f3c.png": "/react-portfolio/static/media/link-logo.db3f3f3c.png",
+    "static/media/linkedin-logo.d4d560fa.png": "/react-portfolio/static/media/linkedin-logo.d4d560fa.png",
+    "static/media/moviematcherproject.jpg": "/react-portfolio/static/media/moviematcherproject.639e75cb.jpg",
+    "static/media/pizzahuntproject.jpg": "/react-portfolio/static/media/pizzahuntproject.d2aa46fd.jpg",
+    "static/media/pupparaziproject.jpg": "/react-portfolio/static/media/pupparaziproject.9c34da90.jpg",
+    "static/media/resume.jpg": "/react-portfolio/static/media/resume.bafe6ac4.jpg",
+    "static/media/runbuddyproject.jpg": "/react-portfolio/static/media/runbuddyproject.46d9994f.jpg",
+    "static/media/zookeeprproject.jpg": "/react-portfolio/static/media/zookeeprproject.3ef4ce2f.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4aee2d86.js",
+    "static/js/2.e183dfc8.chunk.js",
+    "static/css/main.8a7140c3.chunk.css",
+    "static/js/main.d63b106b.chunk.js"
+  ]
+}

@@ -13,7 +13,7 @@ const AboutMe = () => {
 
             <div className="aboutDes">
 
-                My name is Logan Dufek. I am a graduate of Case Western Reserve University with a degree in Nutritional Biochemistry. Currently I am working towards completing CWRU's Web Development Boot Camp. I am also a self-taught video editor, and all around creative individual. I look forward to applying those creative skill sets to my coding knowledge.
+                My name is Logan Dufek. I am a graduate of Case Western Reserve University with a degree in Nutritional Biochemistry. Currently I am working towards completing CWRU's Web Development Program. I am also a self-taught video editor, and all around creative individual. I look forward to applying those creative skill sets to my coding knowledge.
 
                 <br></br>
 
