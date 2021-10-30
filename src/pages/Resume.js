@@ -1,6 +1,6 @@
 import React from 'react';
 import resumeimage from '../assets/images/resume.jpg'
-import resume from '../assets/pdf/Logan_Alexander_Dufek_Resume_(2021).pdf'
+import resume from '../assets/pdf/Logan_Alexander_Dufek_Web_Development Resume_2021.pdf'
 
 function Resume() {
 
@@ -31,23 +31,23 @@ function Resume() {
                 <li>
                     Node.Js,
                 </li>
-                 <li>
-                     Express.Js,
+                <li>
+                    Express.Js,
                 </li>
                 <li>
-                     SQL,
+                    SQL,
                 </li>
                 <li>
-                     Sequalize,
+                    Sequalize,
                 </li>
-                 <li>
-                     MongoDB/Mongoose,
+                <li>
+                    MongoDB/Mongoose,
                 </li>
-                 <li>
-                     GraphQL,
+                <li>
+                    GraphQL,
                 </li>
-                 <li>
-                     MVC Structure
+                <li>
+                    MVC Structure
                 </li>
 
 
