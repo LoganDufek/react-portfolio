@@ -1,13 +1,34 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 import { validateEmail } from '../utils/helpers.js';
+import emailjs from 'emailjs-com';
+import { message, Button, Space } from 'antd';
 
 function ContactForm() {
 
-    const [formState, setFormState] = useState({ name: '', email: '', message: '' });
+    const [formState, setFormState] = useState({ name: '', email: '', content: '' });
 
-    const { name, email, message } = formState;
+    const form = useRef();
+
+    const { name, email, content } = formState;
 
     const [errorMessage, setErrorMessage] = useState('');
+
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+
+        emailjs.sendForm('service_u1dv389', 'template_mrr4jtf', form.current, 'user_bCupGVL86VJCKlMVY47Vl')
+            .then((result) => {
+                console.log(result.text);
+                alert("Your email has been sucessfully sent! Thank you!")
+                window.location.replace("https://logandufek.github.io/react-portfolio/")
+
+
+            }, (error) => {
+                console.log(error.text);
+            });
+    };
 
     function handleChange(e) {
         if (e.target.name === 'email') {
@@ -36,10 +57,7 @@ function ContactForm() {
         }
     }
 
-    function handleSubmit(e) {
-        e.preventDefault();
-        console.log(formState);
-    }
+
 
 
     return (
@@ -50,30 +68,28 @@ function ContactForm() {
                 <h1>Contact</h1>
             </div>
             <div className="contact-boxes">
-                <form id="contact-form"
-                    onSubmit={handleSubmit}>
+                <form ref={form} id="contact-form"
+
+                >
                     <div>
-                        <label htmlFor="name">Name:</label>
+                        <label for="name">Name:</label>
                         <input type="text" name="name"
-                            defaultValue={""}
-                            onBlur
-                            ={handleChange} />
+                            defaultValue={name}
+                            onBlur={handleChange} />
                     </div>
                     <div>
-                        <label htmlFor="email">Email address:</label>
+                        <label for="from_email">Email address:</label>
                         <input type="email" name="email"
                             defaultValue={email}
-                            onBlur
-                            ={handleChange} />
+                            onBlur={handleChange} />
                     </div>
                     <div>
-                        <div htmlFor="message"></div>
-                        <textarea name="message" rows="5"
-                            defaultValue={message}
-                            onBlur
-                            ={handleChange} />
+                        <div for="content"></div>
+                        <textarea name="content" rows="5"
+                            defaultValue={content}
+                            onBlur={handleChange} />
                     </div>
-                    <button className="submitButton" type="submit">Submit</button>
+                    <a className="submitButton" type="button" href="/" onClick={sendEmail} >Submit</a>
                     {
                         errorMessage && (
                             <div>

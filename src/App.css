@@ -196,8 +196,9 @@ a {
 }
 
 #contact-form input {
-  height: 20px;
+  height: 30px;
   width: 100%;
+  font-size: 20px;
   margin-top: 15px;
   margin-bottom: 15px;
 }
@@ -211,12 +212,15 @@ a {
 height: 250px;
 width: 100%;
 margin-right: 25px;
+margin-bottom: 20px;
+font-size: 20px;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif 
 }
 
 .submitButton {
   background-color: #2F3061;
   color: #ffffff;
-  margin-top: 10px;
+  margin-top: 30px;
   border-style: none;
   font-size: 40px;
   border-radius: 5px;
@@ -410,6 +414,7 @@ margin-right: 25px;
 height: 400px;
 width: 100%;
 margin-right: 25px;
+margin-bottom: 20px;
 font-size: 30px;
 }
 
